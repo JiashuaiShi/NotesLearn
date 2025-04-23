@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 #include <algorithm>
-#include "../../tools/out/include/tools.h"
+#include "../../tools/tools-lib/tools.h"
 
 using namespace std;
 

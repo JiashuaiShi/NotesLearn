@@ -63,7 +63,7 @@ do_test (2 10 "is 1024")
 # 构建一个 CPack 安装包
 include (InstallRequiredSystemLibraries)
 set (CPACK_RESOURCE_FILE_LICENSE
-  "${CMAKE_CURRENT_SOURCE_DIR}/License.txt")
+  "License.txt")
 set (CPACK_PACKAGE_VERSION_MAJOR "${Demo_VERSION_MAJOR}")
 set (CPACK_PACKAGE_VERSION_MINOR "${Demo_VERSION_MINOR}")
 include (CPack)
